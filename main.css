@@ -17,13 +17,22 @@
   grid-template-rows: 56px;
 }
 .more-arrow {
+  border: none;
+  background-color: transparent;
+  /* opacity: 0.9; */
   display: grid;
+  grid-auto-flow: column;
   place-items: center;
   position: absolute;
-  margin-left: 95%;
+  margin-left: 94%;
   height: 100%;
-  width: 5%;
+  width: 100px;
   cursor: pointer;
+}
+.left {
+  width: 70px;
+  height: 100%;
+  background: linear-gradient(to left, white 20%, rgba(255, 255, 255, 0) 80%);
 }
 
 .content-selector-button {
