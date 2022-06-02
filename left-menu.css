@@ -1,0 +1,105 @@
+.main-side-menu-container {
+  height: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 240px 1fr;
+  grid-template-rows: 100%;
+  padding-top: 56px;
+}
+.left-menu {
+  /* display: grid; */
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.menu-box {
+  width: 100%;
+  padding-bottom: 12px;
+  border-bottom: 1.4px solid #e5e5e5ab;
+  margin-bottom: 12px;
+}
+.menu-options {
+}
+.menu-options-wrapper {
+  height: 40px;
+  width: 100%;
+  padding: 0px 24px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  justify-items: start;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.current-page {
+  font-family: roboto;
+  background-color: #e5e5e5;
+}
+.guide-section {
+  height: 450px;
+  width: 100%;
+  padding: 12px 0px;
+}
+.subscription-section {
+  margin-top: 12px;
+}
+.more-from-yt-section {
+  border-bottom: 1.4px solid #e5e5e5ab;
+  padding-bottom: 12px;
+}
+.settings-section {
+  border-bottom: 1.4px solid #e5e5e5ab;
+  padding: 12px 0px;
+}
+.guide-links {
+  display: grid;
+  padding: 0px 10px 16px 24px;
+  padding-bottom: 16px;
+}
+.guide-links-2,
+.guide-links-1,
+.google-llc {
+  padding-top: 16px;
+}
+.guide-link {
+  margin-right: 8px;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: roboto;
+  color: #606060;
+}
+.google-llc {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #606060;
+}
+.row-1-links,
+.row-2-links,
+.row-3-links {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+}
+.menu-titles {
+  padding: 8px 24px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #606060;
+}
+.subscription-profile {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 24px;
+}
+.option-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+}
+.bordering-option {
+}
