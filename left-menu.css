@@ -31,8 +31,7 @@
   border-bottom: 1.4px solid #e5e5e5ab;
   margin-bottom: 12px;
 }
-.menu-options {
-}
+
 .menu-options-wrapper {
   height: 40px;
   width: 100%;
@@ -44,6 +43,10 @@
   justify-items: start;
   font-size: 14px;
   font-family: sans-serif;
+  cursor: pointer;
+}
+.menu-options-wrapper:hover {
+  background-color: #d6d6d680;
 }
 .current-page {
   font-family: roboto;
@@ -130,6 +133,10 @@
   font-size: 10px;
   font-family: Helvetica, sans-serif;
   font-weight: 400;
+  cursor: pointer;
+}
+.small-menu-option-wrapper:hover {
+  background-color: #d6d6d680;
 }
 .small-menu-option-icon {
   width: 24px;

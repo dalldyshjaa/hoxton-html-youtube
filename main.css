@@ -1,6 +1,7 @@
 .main-wrapper {
   display: grid;
   grid-template-rows: 56px 1fr;
+  grid-template-columns: 1fr;
 }
 .content-selector-bar {
   position: relative;
