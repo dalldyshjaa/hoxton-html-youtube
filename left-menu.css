@@ -9,10 +9,21 @@
 .left-menu {
   /* display: grid; */
   overflow-y: scroll;
-  padding-right: 10px;
+  padding-right: 5px;
 }
 ::-webkit-scrollbar {
-  display: none;
+  /* display: none; */
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey; */
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
 }
 .menu-box {
   width: 100%;
@@ -56,7 +67,7 @@
 }
 .guide-links {
   display: grid;
-  padding: 0px 10px 16px 24px;
+  padding: 0px 5px 16px 24px;
   padding-bottom: 16px;
 }
 .guide-links-2,
