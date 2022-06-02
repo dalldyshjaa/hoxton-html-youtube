@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: #f9f9f9; */
 }
 .navbar {
   padding: 0px 16px;
@@ -12,6 +13,7 @@
   justify-content: space-between;
   position: fixed;
   width: 100%;
+  background-color: white;
 }
 .test {
   margin-left: 34px;
@@ -25,6 +27,7 @@
   grid-template-rows: 100%;
   place-content: center;
   place-items: center;
+  background-color: white;
 }
 .yt-logo-wraper {
   border: none;
@@ -47,6 +50,7 @@
 .yt-logo {
   height: 20px;
   width: 90px;
+  background-color: white;
 }
 .navbar-search-unit {
   padding: 8px 0px;
@@ -63,6 +67,7 @@
   height: 100%;
 }
 #search-form {
+  background-color: white;
   height: 100%;
   width: 100%;
   border: #cccccc solid 1px;
@@ -110,6 +115,7 @@
   width: 100%;
   font-size: 16px;
   font-weight: 500;
+  background-color: white;
 }
 .navbar_item_search-voice {
   height: 100%;
